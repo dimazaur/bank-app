@@ -1,0 +1,28 @@
+.container{
+  width: 80%;
+  margin:20px auto;
+}
+.full-width-table {
+  width: 100%;
+}
+
+.search-panel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .search-input {
+    width: 100%;
+  }
+
+  .select-search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    &>*{
+      margin-left: 2rem;
+    }
+  }
+}
+
+
